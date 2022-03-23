@@ -1,0 +1,96 @@
+#root {
+  background-color: #282c34;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  margin-top: 1%;
+  margin-left: 1%;
+  width: 10%;
+  height: auto;
+  max-width: 75px;
+  float: left;
+}
+
+.App-header {
+  font-size: 50px;
+  color: white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.title  {
+  display: contents;  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+:root {
+	--cell-size: 200px;
+	--color: #81c3fd; 
+	--color-set: #0275d8; 
+	--l: 10px; 
+}
+
+.cell:nth-child(1), .cell:nth-child(2), .cell:nth-child(3) {
+	border-top: none;
+}
+
+.cell:nth-child(1), .cell:nth-child(4), .cell:nth-child(7) {
+	border-left: none;
+}
+
+.cell:nth-child(3), .cell:nth-child(6), .cell:nth-child(9) {
+	border-right: none;
+}
+
+.cell:nth-child(7), .cell:nth-child(8), .cell:nth-child(9) {
+	border-bottom: none;
+}
+
+body {
+	margin: 0;
+}
+
+.board {
+	width: 100vw;
+	height: 85vh;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	justify-items: center;
+	align-items: center;
+	grid-template-columns: repeat(3, auto)
+}
+
+.cell {
+	width: var(--cell-size);
+	height: var(--cell-size);
+	border: 5px solid rgb(0, 0, 0);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	cursor: pointer;
+}
+
+
+.cell.X {
+	background-image: url(./components/X.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 90%;
+}
+
+.cell.O {
+	background-image: url(./components/O.png) ;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 90%;
+}

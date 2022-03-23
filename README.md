@@ -1,6 +1,6 @@
 # tic-tac-toe
  
- <img src="./src/components/logo.PNG" alt="Tic Tac Toe">
+ <img src="tree/main/src/components/logo.PNG" alt="Tic Tac Toe">
 
 
  ## TODO:

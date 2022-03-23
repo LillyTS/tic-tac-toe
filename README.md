@@ -1,6 +1,7 @@
 # tic-tac-toe
  
- <img src="tree/main/src/components/logo.PNG" alt="Tic Tac Toe">
+ <img src="https://user-images.githubusercontent.com/75341426/159680867-f8c7db8e-4840-4a56-a407-d5699a52bac3.png" alt="Tic Tac Toe">
+
 
 
  ## TODO:

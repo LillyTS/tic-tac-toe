@@ -1,6 +1,6 @@
 function Cell(props) {
   return (
-    <div className={`cell ${props.cellState}`} onClick={props.click}  ></div>
+    <div className={`cell ${props.cellState}`} onClick={props.click}></div>
   )
 }
 

@@ -11,12 +11,12 @@
 - [x] Display do jogo a funcionar
 - [x] Botão de restart
 - [x] O display dar clear
-- [ ] Banner a dizer quem ganhou ou se foi empate
-- [ ] Banner a dizer quem é o player atual
-- [ ] Melhorar o botão de restart
+- [X] Banner a dizer quem ganhou ou se foi empate
+- [X] Banner a dizer quem é o player atual
+- [X] Melhorar o botão de restart
 - [ ] Testes Unitários
+- [ ] Guardar localmente o estado do jogo
 
 ## BUGS
-- Botão de restart só dá clear no campo se for o player X a acabar, tem a ver com o boardState ser um state assincrono
 
 

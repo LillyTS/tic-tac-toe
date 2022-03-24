@@ -1,7 +1,6 @@
-function PlayerTurn() {
+function PlayerTurn(props) {
   return (
-    <div>
-    </div>
+    <div className={`currentPlayer ${props.currentPlayer}`} > Player Turn</div>
     
   )
 }

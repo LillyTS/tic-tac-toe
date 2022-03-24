@@ -81,16 +81,57 @@ body {
 }
 
 
-.cell.X {
+.X {
 	background-image: url(./components/X.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 90%;
+	background-size: 70%;
 }
 
-.cell.O {
+.O {
 	background-image: url(./components/O.png) ;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 90%;
+	background-size: 70%;
 }
+
+#banner {
+	background-color: #F3F5F6;
+	color: #000000;
+	border: 1px solid #aaa;
+	position: fixed;
+	width: 270px;
+	height: 100px;
+	left: 40%;
+	top:40%;
+	margin-left: -100px;
+	padding: 10px 20px 10px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+#restartButton {
+	background-color: #FFFFFF;
+	display: inline-block;
+	border-radius: 12px;
+	border: 4px solid #aaa;
+	padding: 5px;
+	text-align: center;
+	width: 60px;
+	cursor: pointer;
+}
+#banner .message {
+	text-align: left;
+}
+
+.currentPlayer {
+	position:absolute;
+	color: white;
+	font-size: xx-large;
+	text-align: center;
+	top: 20%;
+	right: 2%;
+	height: 200px;
+	width: 200px;
+}
+	

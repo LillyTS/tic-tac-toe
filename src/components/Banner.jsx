@@ -1,8 +1,12 @@
 import React from 'react'
+import Restart from './Restart'
 
-function Banner() {
+function Banner(props) {
   return (
-    <div>Banner</div>
+    <div id="banner" style={{display: props.message === "" ? "none" : "block"}}>
+      <div className="message">{props.message}</div>
+      <Restart clickRestart={props.clickRestart} />
+    </div>
   )
 }
 
